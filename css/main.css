@@ -24,6 +24,7 @@
 	padding: 0;
 	margin: 0;
 	font-family: 'Quicksand', sans-serif;
+	word-break: break-all;
 }
 
 html {
@@ -207,17 +208,6 @@ body {
 	text-align: right;
 	letter-spacing: 0.08em;
 	color: #555555;
-}
-
-.card-header {
-	font-size: 30px;
-	line-height: 37px;
-	padding: 20px;
-}
-
-.garis {
-	padding-right: 20px;
-	margin-top: -10px;
 }
 
 .card-body {
