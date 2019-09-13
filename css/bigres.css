@@ -1,0 +1,139 @@
+@media (min-width: 1441px) {
+	.btn-scroll {
+		margin: 60px;
+		width: 120px;
+		height: 120px;
+		top: -220px;
+	}
+	/* PAGE 1 */
+	li a {
+    font-size: 30px;
+    width: 180px;
+    padding: 35px 30px;
+	}
+	.logoM {
+		width: 70px;
+    padding: 40px;
+	}
+	.textscroll {
+		font-size: 30px;
+	}
+	.imgscroll {
+		width: 20px;
+	}
+	.white-arrow {
+    padding: 25px 35px;
+    width: 45px;
+	}
+	.scroll {
+		padding: 50px;
+	}
+	/* END OF PAGE 1 */
+
+	/* PAGE 2 */
+	.textTitle3 {
+		font-size: 75px;
+	}
+	.textTitle, .textTitle2 {
+		font-size: 60px;
+		line-height: 90px;
+	}
+	.card {
+		width: 900px;
+		padding: 30px;
+	}
+	.card-header {
+		font-size: 40px;
+	}
+	.card-body {
+		font-size: 30px;
+		line-height: 50px;
+	}
+	.btn-pink {
+		width: 180px;
+		padding: 15px 40px;
+		font-size: 25px;
+	}
+	.content .btn-pink {
+		position: absolute;
+		bottom: 40px;
+		margin: 0 0 0 35px;
+	}
+	/* END OF PAGE 2 */
+
+	/* PAGE 4 */
+	.item {
+		margin: -100px 0 0 0;
+	}
+	.item .card-tantangan {
+    width: 425px;
+    height: 610px;
+    border-radius: 25px;
+	}
+	.item .foto {
+    width: 320px;
+    height: 320px;
+    border-radius: 25px;
+    transform: translate(50px, 170px);
+	}
+	.content .header {
+    font-size: 35px;
+    padding-top: 240px;
+	}
+	.content .article {
+    font-size: 23px;
+    line-height: 35px;
+    padding: 50px 50px 0 50px;
+	}
+	/* END OF PAGE 4 */
+
+	/* PAGE 5 */
+	.card-robot {
+		height: 370px;
+	}
+	/* END OF PAGE 5 */
+	
+	/* PAGE 6 */
+	.container-box {
+    width: 1030px;
+    left: calc(50% - 515px);
+	}
+	.container-box .box {
+    width: 280px;
+    height: 280px;
+    margin: 30px 30px 45px 30px;
+	}
+	.box .photo {
+    width: 120px;
+    height: 120px;
+    margin-left: calc(50% - 60px);
+	}
+	.box .text {
+		text-align: center;
+		color: #555555;
+		font-size: 25px;
+		font-weight: 700;
+		bottom: 40px;
+		position: absolute;
+		width: 100%;
+	}	
+	/* END OF PAGE 6 */
+
+	/* PAGE 7 */
+	.item2 {
+		margin: 0 !important
+	}
+	.link-kiri {
+		height: 190px;
+	}
+	.link-kiri li, .copyright {
+    font-size: 25px;
+    line-height: 42px;
+	}
+	.copyright {
+		border-top: 2px solid #F5E17D;
+	}
+	.footer {
+		height: 270px;
+	}
+}
