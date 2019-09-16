@@ -23,8 +23,8 @@
 * {
 	padding: 0;
 	margin: 0;
-    font-family: 'Quicksand', sans-serif;
-    word-break: break-all;
+	font-family: 'Quicksand', sans-serif;
+	word-break: break-all;
 }
 
 html {
@@ -38,140 +38,162 @@ body {
 	padding: 0;
 }
 
-.pages{
-    height: 100vh;
-    width: auto;
-    position: relative;
-    overflow: hidden;
+.pages {
+	height: 100vh;
+	width: auto;
+	position: relative;
+	overflow: hidden;
 }
-.short-pages{
-    height: 80vh;
-    width: auto;
-    position: relative;
-    overflow: hidden;
+
+.short-pages {
+	height: 80vh;
+	width: auto;
+	position: relative;
+	overflow: hidden;
 }
-.long-pages{
-    height: 200vh;
-    width: auto;
-    position: relative;
-    overflow: hidden;
-    margin-top: 15%;
+
+.long-pages {
+	height: 200vh;
+	width: auto;
+	position: relative;
+	overflow: hidden;
+	margin-top: 15%;
 }
+
 .gradasi-oren-atas {
 	position: absolute;
 	width: 100%;
 	height: 180px;
 	background-image: linear-gradient(#F4BF87, rgba(255, 0, 0, 0));
-    top: 0;
-    z-index: 0;
+	top: 0;
+	z-index: 0;
 }
 
 /* LANDING PAGE */
 
-.background1{
-    position: absolute;
-    right: 0;
-    max-height: 100vh;
+.background1 {
+	position: absolute;
+	right: 0;
+	max-height: 100vh;
 	width: 100%;
-    object-fit: cover;
-    overflow: hidden;
-    z-index: 0;
+	object-fit: cover;
+	overflow: hidden;
+	z-index: 0;
 }
-.breadcrumb{
-    position: absolute;
-    top : 0;
-    left: 0;
-    margin: 15px;
+
+.breadcrumb {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 15px;
 }
-.breadcrumb-text{
-    float: right;
-    padding: 15px;
-    padding-left: 20px;
-    font-weight: bold; 
+
+.breadcrumb-text {
+	float: right;
+	padding: 15px;
+	padding-left: 20px;
+	font-weight: bold;
 }
-.content{
-    font-size: 48px;
-    line-height: 60px;
-    letter-spacing: 0.1em;
-    color: #555555;
+
+.content {
+	font-size: 48px;
+	line-height: 60px;
+	letter-spacing: 0.1em;
+	color: #555555;
 }
-.content .title{
-    position: absolute;
-    width: 550px;
-    height: 100px;
-    margin: 20px;
-    transform: translate(50px, 20vh);
+
+.content .title {
+	position: absolute;
+	width: 550px;
+	height: 100px;
+	margin: 20px;
+	transform: translate(50px, 20vh);
 }
-.content .foto-kotak{
-    position: absolute;
-    margin: 20px;
-    transform: translate(50px, 45vh);
-    width: 650px;
-    height: 300px;
-    background-color: #555555;
+
+.content .foto-kotak {
+	position: absolute;
+	margin: 20px;
+	transform: translate(50px, 45vh);
+	width: 650px;
+	height: 300px;
+	background-color: #555555;
 }
 
 /* END OF LANDING PAGE */
 
 /* PAGE CONTENT */
-.svg-kanan{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    height: 100%;
-    z-index: -1;
+
+.svg-kanan {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	z-index: -1;
 }
-.svg-kiri{
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 100%;
-    z-index: -1;
+
+.svg-kiri {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 100%;
+	z-index: -1;
 }
-.littleR{
-    transform: translate(130px, 80px);
+
+.littleR {
+	transform: translate(130px, 80px);
 }
-.littleC{
-    position: absolute;
-    left: 0;
+
+.littleC {
+	position: absolute;
+	left: 0;
 }
-.bigC{
-    transform: translateY(40px);
+
+.bigC {
+	transform: translateY(40px);
 }
-.circle{
-    position: absolute;
-    bottom: 5%;
+
+.circle {
+	position: absolute;
+	bottom: 5%;
 }
-.svgW{
-    position: absolute;
-    right: 0;
-    bottom: 5%;
+
+.svgW {
+	position: absolute;
+	right: 0;
+	bottom: 5%;
 }
-.vector{
-    position: absolute;
-    bottom: -20%;
-    z-index: 0;
+
+.vector {
+	width: 100%;
+	position: absolute;
+	bottom: -20%;
+	z-index: -2;
 }
-.artikel{
-    z-index: 2;
-    width: 50%;
-    height: auto;
-    margin: auto;
+
+.artikel {
+	z-index: 2;
+	width: 50%;
+	height: auto;
+	margin: auto;
 }
-.artiker .text{
-    font-size: 35px;
-    line-height: 45px;
-    letter-spacing: 0.08em;
+
+.artikel .text {
+	font-size: 35px;
+	line-height: 45px;
+	letter-spacing: 0.08em;
 }
+
 /* END OF PAGE CONTENT */
 
 /*  ARTIKEL LAINNYA */
-.artikel-lainnya{
-    background-color: #F4A58F;
+
+.artikel-lainnya {
+	background-color: #F4A58F;
 }
+
 .btn-scroll {
-    position: absolute;
-    bottom: 0;
+	position: absolute;
+	bottom: 0;
 	right: 20px;
 	margin: 30px 20px;
 	width: 60px;
@@ -187,28 +209,29 @@ body {
 	width: 20px;
 }
 
-.titleText{
-    position: absolute;
-    top:0;
-    left: 20%;
-    font-size: 36px;
-    line-height: 45px;
-    letter-spacing: 0.08em;
-    color: white;
-    font-weight: bold;
-    z-index: 1;
+.titleText {
+	position: absolute;
+	top: 0;
+	left: 20%;
+	font-size: 36px;
+	line-height: 45px;
+	letter-spacing: 0.08em;
+	color: white;
+	font-weight: bold;
+	z-index: 1;
 }
 
-.item-card{
-    width: 50%;
-    position: relative;
-    margin: auto;
-    padding-top: 3%;
+.item-card {
+	width: 50%;
+	position: relative;
+	margin: auto;
+	padding-top: 3%;
 }
 
-.card-artikelLain{
-    position: relative;
-    margin-top: 20px;
+.card-artikelLain {
+	position: relative;
+	margin: auto;
+	margin-top: 20px;
 	width: 600px;
 	height: 170px;
 	padding: 20px;
@@ -220,6 +243,7 @@ body {
 	letter-spacing: 0.08em;
 	color: #555555;
 }
+
 .card-body {
 	max-width: -webkit-fill-available;
 	font-size: 15px;
@@ -261,6 +285,7 @@ body {
 	transition: 0.3s;
 	color: #555555;
 }
+
 /* END OF ARTIKEL LAINNYA */
 
 /* BOUCING ANIMATION */
@@ -323,3 +348,56 @@ body {
 }
 
 /* END BOUNCING ANIMATION */
+@media (min-width: 376px){
+
+}
+
+@media (max-width:1024px) and (min-width: 426px) {
+	.artikel .text {
+		font-size: 20px;
+		line-height: 35px;
+		letter-spacing: 0.08em;
+	}
+	.card-artikelLain{
+		width: 400px;
+    height: 150px;
+	padding: 15px;
+	margin-top: 40px;
+	}
+	.card-header{
+		font-size: 20px;
+	}
+	.card-body{
+		margin: 0;
+	}
+	.btn-pink{
+		margin: 0px 0px 0 10px;
+	}
+}
+
+@media (min-width: 426px) {
+	.vector {
+		bottom: -135px;
+	}
+}
+
+@media (min-width: 769px) {
+	.vector {
+		bottom: -195px;
+	}
+}
+
+@media (min-width: 1025px) {
+	.vector {
+		bottom: -287px;
+	}
+}
+
+@media (min-width: 1441px) {
+	.background1 {
+		width: 50%;
+	}
+	.vector {
+		bottom: -35%;
+	}
+}
