@@ -57,6 +57,27 @@ body {
     overflow: hidden;
     margin-top: 15%;
 }
+.long-pages-tantangan{
+	height: 150vh;
+    width: auto;
+    position: relative;
+    overflow: hidden;
+    margin-top: 15%;
+}
+.long-pages-robot{
+	height: 250vh;
+    width: auto;
+    position: relative;
+    overflow: hidden;
+    margin-top: 15%;
+}
+.long-pages-pekerjaan{
+    height: 400vh;
+    width: auto;
+    position: relative;
+    overflow: hidden;
+    margin-top: 15%;
+}
 .gradasi-oren-atas {
 	position: absolute;
 	width: 100%;
@@ -97,7 +118,21 @@ body {
 }
 .content .title{
     position: absolute;
-    width: 550px;
+    width: 472px;
+    height: 100px;
+    margin: 20px;
+    transform: translate(50px, 20vh);
+}
+.content .title-tantangan{
+    position: absolute;
+    width: 440px;
+    height: 200px;
+    margin: 20px;
+	transform: translate(50px, 20vh);
+}
+.content .title-robot{
+	position: absolute;
+    width: 410px;
     height: 100px;
     margin: 20px;
     transform: translate(50px, 20vh);
@@ -110,6 +145,7 @@ body {
     height: 300px;
     background-color: #555555;
 }
+
 
 /* END OF LANDING PAGE */
 
@@ -149,7 +185,17 @@ body {
 }
 .vector{
     position: absolute;
-    bottom: -20%;
+    bottom: -24%;
+    z-index: 0;
+}
+.vector-robot{
+    position: absolute;
+    bottom: -12%;
+    z-index: 0;
+}
+.vector-pekerjaan{
+	position: absolute;
+    bottom: -7%;
     z-index: 0;
 }
 .artikel{
@@ -158,11 +204,22 @@ body {
     height: auto;
     margin: auto;
 }
-.artiker .text{
-    font-size: 35px;
+.artikel .text{
+    font-size: 23px;
     line-height: 45px;
     letter-spacing: 0.08em;
 }
+.artikel .text-tantangan{
+	font-size: 28px;
+    line-height: 45px;
+    letter-spacing: 0.08em;
+}
+.artikel .text-robot{
+    font-size: 20px;
+    line-height: 45px;
+    letter-spacing: 0.07em;
+}
+
 /* END OF PAGE CONTENT */
 
 /*  ARTIKEL LAINNYA */
@@ -222,10 +279,10 @@ body {
 }
 .card-body {
 	max-width: -webkit-fill-available;
-	font-size: 15px;
+	font-size: 13px;
 	line-height: 25px;
 	padding: 10px;
-	float: right;
+	float: left;
 	font-weight: normal;
 	margin: 10px 0;
 }

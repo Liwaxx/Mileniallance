@@ -496,7 +496,7 @@ li a:hover:not(.aktif) {
 .content .header {
 	font-style: normal;
 	font-weight: bold;
-	font-size: 24px;
+	font-size: 17px;
 	line-height: 30px;
 	text-align: center;
 	letter-spacing: 0.08em;
@@ -507,7 +507,7 @@ li a:hover:not(.aktif) {
 	font-style: normal;
 	font-weight: normal;
 	text-align: left;
-	font-size: 15px;
+	font-size: 13px;
 	line-height: 25px;
 	letter-spacing: 0.08em;
 	padding: 15px;
@@ -621,7 +621,7 @@ li a:hover:not(.aktif) {
 .card-tips .content {
 	float: right;
 	width: 65%;
-	font-size: 30px;
+	font-size: 23px;
 	font-weight: bold;
 	padding: 15px;
 	line-height: 37px;
