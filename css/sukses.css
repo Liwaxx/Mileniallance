@@ -73,6 +73,9 @@ body {
     color: #555555;
     letter-spacing: 0.08em;
 }
+.judul-besar{
+    font-size: 50px;
+}
 
 .tagline{
     text-align: center;
@@ -88,6 +91,8 @@ body {
     left: 0;
     right: 0;
     border-radius: 15px;
+    width: 800px;
+    height: 400px;
 }
 
 .vector-bottom{
@@ -132,4 +137,117 @@ body {
     font-size: 20px;
     margin-top: 40px;
 	font-weight: 700;
+}
+
+@media (max-width:2560px) and (min-width:1441px){
+    .gradasi-putih{
+        bottom: -2px;
+    }
+    .tagline{
+        font-size: 70px;
+    }
+    .video{
+        width: 1600px;
+        height: 800px;
+    }
+    .text .judul{
+        font-size: 75px;
+    }
+    .judul-besar{
+        font-size: 95px;
+    }
+    .line{
+        width: 500px;
+    }
+    .orang-sukses{
+        bottom: 20%;
+    }
+    .group .box{
+        width: 300px;
+        height: 350px;
+        margin-right: 280px;
+    }
+    .box .photo{
+        width: 135px;
+        height: 135px;
+    }
+    .box .content{
+        font-size: 30px;
+        margin-top: 80px;
+    }
+}
+
+@media (max-width:1024px){
+    .group .box{
+        margin-right: 45px;
+        margin-bottom: 25px;
+    }
+}
+@media (max-width:768px) and (min-width:426px) {
+    .video{
+        width: 500px;
+        height: 300px;
+    }
+    #center{
+        transform: translate(115px, 10px);
+    }
+    .orang-sukses{
+        bottom: 5%;
+        left: 72%;
+    }
+}
+
+@media (max-width:425px){
+    .gradasi-putih{
+        top: 214px;
+    }
+    .orang-sukses{
+        left: 80%;
+    }
+}
+@media (max-width:375px){
+    .gradasi-putih{
+        top: 168px;
+    }
+}
+@media (max-width:320px){
+    .gradasi-putih{
+        top: 115px;
+    }
+}
+
+@media (max-width:425px) and (min-width:320px){
+    .gambar-sukses{
+        width: 100%;
+        height: auto;
+    }
+    .video{
+        width: auto;
+        height: auto;
+        border-radius: 5px;
+    }
+    .text{
+        top: auto;
+        bottom: 0; 
+    }
+    .text .judul{
+        font-size: 20px;
+    }
+    .judul-besar{
+        font-size: 30px;
+    }
+    .tagline{
+        font-size: 20px;
+    margin: 30px;
+    }
+    .group .box{
+        width: 150px;
+        height: 180px;
+    }
+    .box .content{
+        font-size: 15px;
+    }
+    .orang-sukses{
+        bottom: 5%;
+    }
 }

@@ -2,6 +2,9 @@
 	.catat .textTitle2 {
 		width: 90%;
 	}
+	.owl-tips{
+		width: 620px;
+	}
 }
 
 @media (min-width: 901px) {
@@ -95,7 +98,19 @@
 		font-size: 20px;
 	}
 	.tips .owl-carousel {
-		display: none !important;
+		width: 420px;
+	}
+	.card-tips{
+		width: 400px;
+		height: 250px;
+	}
+	.foto-bulat{
+		width: 100px;
+    	height: 100px;
+    	transform: translate(25%, 70%);
+	}
+	.card-tips .content{
+		font-size: 20px;
 	}
 	.gambar-kiri {
 		width: 310px;
@@ -349,6 +364,12 @@
 .text-sukses span, #subtitle {
 	font-size: 18px;
 }
+.tips .owl-tips{
+	width: 400px;
+}
+.card-tips{
+	width: 380px;
+}
 }
 
 @media (max-width: 424px) {
@@ -384,4 +405,27 @@
 	transform: translateX(-50%);
 	width: 80%;
 }
+}
+
+@media (max-width:375px) and (min-width:320px){
+	.tips .owl-tips {
+		width: 310px;
+	}
+	.card-tips{
+		width: 280px;
+		height: 280px;
+	}
+	.card-tips .content{
+		padding: 15px;
+		line-height: 25px;
+		font-size: 15px;
+		float: none;
+		float: none;
+		margin: auto;
+		margin-top: 20px;
+	}
+	.foto-bulat{
+		float: none;
+		transform: translate(90%, 25%);
+	}
 }
