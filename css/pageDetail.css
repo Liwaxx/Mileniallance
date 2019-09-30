@@ -102,7 +102,8 @@ body {
 	color: #555555;
 }
 
-.content .title {
+.title {
+	word-break: keep-all;
 	position: absolute;
 	width: 550px;
 	height: 100px;
@@ -110,7 +111,8 @@ body {
 	transform: translate(50px, 20vh);
 }
 
-.content .foto-kotak {
+.foto-kotak {
+	border-radius: 10px;
 	position: absolute;
 	margin: 20px;
 	transform: translate(50px, 45vh);
@@ -348,9 +350,95 @@ body {
 }
 
 /* END BOUNCING ANIMATION */
-@media (min-width: 376px){
 
+@media (max-width:425px) {
+	.short-pages{
+		height: 120vh;
+	}
+	.breadcrumb {
+		margin: 10px;
+	}
+	.breadcrumb-text {
+		padding: 5px;
+		padding-left: 10px;
+		font-size: 12px;
+	}
+	.logoM {
+		width: 25px;
+	}
+	.content{
+		line-height: 30px;
+	}
+	.title{
+
+		height: auto;
+		transform: translate(30px, 30vh);
+		letter-spacing: 0;
+		font-size: 30px;
+		width: 220px;
+	}
+	.foto-kotak{
+		width: 225px;
+		height: 150px;
+		transform: translate(30px, 55vh);
+	}
+	.artikel{
+		width: 80%;
+	}
+	.artikel .text {
+		font-size: 20px;
+		line-height: 25px;
+		letter-spacing: 0;
+	}
+	.svgY{
+		height: 130px;
+	}
+	.svgW{
+		height: 130px;
+	}
+	.bigR{
+		height: 135px;
+	}
+	.littleR{
+		height: 65px;
+	}
+	.bigC{
+		height: 135px;
+	}	
+	.littleC{
+		height: 55px;
+	}
+	.vector{
+		bottom: -50px;
+	}
+	.titleText{
+		font-size: 25px;
+		line-height: 35px;
+	}
+	.card-artikelLain{
+		width: auto;
+		height: 240px;
+		margin-top: 40px;
+	}
+	.card-header{
+		font-size: 15px;
+	}
+	.card-body{
+		font-size: 12px;
+		line-height: 1;
+		padding: 10px;
+	}
+	.garis{
+		width: 100px;
+	}
+	.btn-pink{
+		width: 90px;
+		padding: 10px;
+		margin: 20px 5px 0 5px;
+	}
 }
+
+@media (min-width: 376px) {}
 
 @media (max-width:1024px) and (min-width: 426px) {
 	.artikel .text {
@@ -358,19 +446,19 @@ body {
 		line-height: 35px;
 		letter-spacing: 0.08em;
 	}
-	.card-artikelLain{
+	.card-artikelLain {
 		width: 400px;
-    height: 150px;
-	padding: 15px;
-	margin-top: 40px;
+		height: 150px;
+		padding: 15px;
+		margin-top: 40px;
 	}
-	.card-header{
+	.card-header {
 		font-size: 20px;
 	}
-	.card-body{
+	.card-body {
 		margin: 0;
 	}
-	.btn-pink{
+	.btn-pink {
 		margin: 0px 0px 0 10px;
 	}
 }
@@ -379,11 +467,25 @@ body {
 	.vector {
 		bottom: -135px;
 	}
+	.content {
+		font-size: 40px;
+	}
+	.foto-kotak {
+		width: 480px;
+		height: 280px;
+	}
 }
 
 @media (min-width: 769px) {
 	.vector {
 		bottom: -195px;
+	}
+	.content {
+		font-size: 40px;
+	}
+	.foto-kotak {
+		width: 650px;
+		height: 300px;
 	}
 }
 
@@ -398,6 +500,6 @@ body {
 		width: 50%;
 	}
 	.vector {
-		bottom: -35%;
+		bottom: -20%;
 	}
 }
