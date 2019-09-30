@@ -687,12 +687,7 @@ li a:hover:not(.aktif) {
 	top: 38%;
 	z-index: 3;
 }
-.slider .owl-carousel .owl-stage-outer {
-	height: 440px !important;
-}
-.slider .owl-carousel .owl-stage-outer {
-	height: 440px !important;
-}
+
 .card-tips {
 	background-color: #FFFFFF;
 	margin: 20px;
