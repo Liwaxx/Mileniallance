@@ -59,6 +59,9 @@
 		bottom: 40px;
 		margin: 0 0 0 35px;
 	}
+	.textTitle2 span {
+		font-size: 50px !important;
+	}
 	/* END OF PAGE 2 */
 
 	/* PAGE 4 */
@@ -85,6 +88,15 @@
     line-height: 35px;
     padding: 50px 50px 0 50px;
 	}
+	.slider .owl-carousel .owl-stage-outer {
+		height: 900px !important;
+	}
+	.item .card-tantangan {
+		height: 620px !important;
+	}
+	.owl-tips {
+		width: 1200px !important;
+	}
 	/* END OF PAGE 4 */
 
 	/* PAGE 5 */
@@ -104,27 +116,33 @@
 	
 	/* PAGE 6 */
 	.container-box {
-    width: 1030px;
-    left: calc(50% - 515px);
-	}
+    width: 1090px;
+    left: calc(50% - 545px);
+}
 	.container-box .box {
     width: 280px;
     height: 280px;
     margin: 30px 30px 45px 30px;
 	}
-	.box .photo {
-    width: 120px;
-    height: 120px;
-    margin-left: calc(50% - 60px);
+	.photo, .photo1, .photo2, .photo3 {
+		width: 230px;
+    height: 230px;
+    margin-left: calc(50% - 115px);
+	}
+	.box .photo2 {
+		width: 240px;
+		height: 240px;
+		margin-left: calc(50% - 120px);
+	}
+	.box .photo3 {
+		width: 350px;
+		height: 350px;
+		margin-left: calc(50% - 175px);
 	}
 	.box .text {
-		text-align: center;
-		color: #555555;
-		font-size: 25px;
-		font-weight: 700;
-		bottom: 40px;
+    font-size: 30px;
 		position: absolute;
-		width: 100%;
+		top: 200px;
 	}	
 	/* END OF PAGE 6 */
 
@@ -136,7 +154,7 @@
 		font-size: 60px;
 	}
 	#subtitle {
-		font-size: 40px !important;
+		font-size: 55px !important;
 	}
 	/* END OF PAGE WINNER */
 
@@ -157,4 +175,24 @@
 	.footer {
 		height: 270px;
 	}
+	.card-tips {
+		width: 850px;
+		height: 400px;
+	}
+	.owl-tips {
+		width: 900px;
+	}
+	.card-tips .content {
+		font-size: 30px;
+	}
+	.foto-bulat {
+		transform: translate(25%, calc(50%));
+		width: 200px;
+		height: 200px;
+	}
+	.medsos img {
+		width: 50px;
+		height: 50px;
+	}
+	
 }

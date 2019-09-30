@@ -629,7 +629,9 @@ li a:hover:not(.aktif) {
 	font-size: 15px;
 	font-weight: 700;
 	width: 100%;
-	margin-top: 130px;
+	position: absolute;
+	top: 130px;
+	margin-left: -10px;
 }
 .group .btn-pink {
 	float: none;
@@ -667,7 +669,7 @@ li a:hover:not(.aktif) {
 }
 .vectorLast {
 	position: absolute;
-	bottom: 0;
+	bottom: -1px;
 	left: 0;
 	width: 100%;
 	z-index: 1;
@@ -680,10 +682,19 @@ li a:hover:not(.aktif) {
 }
 .owl-tips {
 	position: absolute;
-	width: 650px;
+	width: 800px;
 	right: 5%;
 	top: 38%;
 	z-index: 3;
+}
+.slider .owl-carousel .owl-stage-outer {
+	height: 440px !important;
+}
+.slider .owl-carousel .owl-stage-outer {
+	height: 440px !important;
+}
+.tips .owl-carousel .owl-stage-outer {
+	height: 320px !important;
 }
 .card-tips {
 	background-color: #FFFFFF;
