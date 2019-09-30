@@ -2,18 +2,19 @@
 	padding: 0;
 	margin: 0;
 	font-family: 'Quicksand', sans-serif;
-	word-break: break-all;
+	word-break: keep-all;
 }
 
 html {
-	scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
-	width: 100%;
-	margin: 0 auto;
+    width: 100%;
+    max-width: 2560px;
+    max-height: 100vh;
 	margin: 0;
-	padding: 0;
+    padding: 0;
 }
 
 /*SCROLLBAR*/
@@ -36,50 +37,115 @@ body {
 }
 
 /*END OF SCROLLBAR*/
-
-.card{
-    margin: auto;
+.card {
     padding-top: 5px;
     padding-bottom: 5px;
-    margin-top: 40px;
-    width: 630px;
-    height: 530px;
+    width: 500px;
+    height: 500px;
     box-shadow: 3px 5px 25px rgba(0, 0, 0, 0.13);
     border-radius: 10px;
+    margin-left: calc(50% - 250px);
+    margin-top: calc(50vh - 250px);
 }
 
 .scrollable{
-    width: 630px;
-    height: 530px;
+    width: 500px;
+    height: 500px;
     overflow: auto;
 }
 
 .title{
     text-align: center;
     font-weight: bold;
-    font-size: 30px;
-    margin: 20px;
+    font-size: 25px;
+    padding: 20px;
     color: #636363;
 }
 
-.img{
-    height: 50%;
-    margin: 30px;
-    transform: translateX(90px);
+.img {
+    padding: 30px 0;
+    width: 70%;
+    margin-left: 15%;
 }
 
 .credit-group{
-    margin: 30px;
-    margin-top: 0;
+    padding: 30px;
+    padding-top: 0;
 }
 
 .credit-title{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     color: #636363;
     margin: 5px;
 }
 .credit-body{
-    font-size: 20px;
+    font-size: 18px;
     margin: 5px;
+}
+
+@media (min-width: 1441px) {
+    .card {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 800px;
+        height: 800px;
+        box-shadow: 3px 5px 25px rgba(0, 0, 0, 0.13);
+        border-radius: 10px;
+        margin-left: calc(50% - 400px);
+        margin-top: calc(50vh - 400px);
+    }
+    .scrollable{
+        width: 800px;
+        height: 800px;
+    }
+    .title {
+        font-size: 45px;
+    }
+    .credit-title {
+        font-size: 30px;
+    }
+    .credit-body {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 425px) {
+    .card {
+        width: 300px;
+        margin-left: calc(50% - 150px);
+    }
+    .scrollable{
+        width: 300px;
+        height: 500px;
+    }
+    .title {
+        font-size: 22px;
+    }
+    .credit-title {
+        font-size: 18px;
+    }
+    .credit-body {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 320px) {
+    .card {
+        width: 240px;
+        margin-left: calc(50% - 120px);
+    }
+    .scrollable{
+        width: 240px;
+        height: 500px;
+    }
+    .title {
+        font-size: 22px;
+    }
+    .credit-title {
+        font-size: 18px;
+    }
+    .credit-body {
+        font-size: 15px;
+    }
 }

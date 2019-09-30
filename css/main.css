@@ -693,9 +693,6 @@ li a:hover:not(.aktif) {
 .slider .owl-carousel .owl-stage-outer {
 	height: 440px !important;
 }
-.tips .owl-carousel .owl-stage-outer {
-	height: 320px !important;
-}
 .card-tips {
 	background-color: #FFFFFF;
 	margin: 20px;
