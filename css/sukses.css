@@ -87,6 +87,7 @@ body {
     position: absolute;
     left: 0;
     right: 0;
+    border-radius: 15px;
 }
 
 .vector-bottom{
@@ -97,13 +98,14 @@ body {
 
 .orang-sukses{
     width: 70%;
+    height: auto;
     position: absolute;
     bottom: 20%;
     left: 70%;
     transform: translateX(-70%);
 }
 
-.orang-sukses .box{
+.group .box{
     background-color: #FFFFFF;
     width: 180px;
     height: 200px;
