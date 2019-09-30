@@ -1,0 +1,85 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Quicksand', sans-serif;
+	word-break: break-all;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	width: 100%;
+	margin: 0 auto;
+	margin: 0;
+	padding: 0;
+}
+
+/*SCROLLBAR*/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #F5E17D;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #F4A58F;
+}
+
+/*END OF SCROLLBAR*/
+
+.card{
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 40px;
+    width: 630px;
+    height: 530px;
+    box-shadow: 3px 5px 25px rgba(0, 0, 0, 0.13);
+    border-radius: 10px;
+}
+
+.scrollable{
+    width: 630px;
+    height: 530px;
+    overflow: auto;
+}
+
+.title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 20px;
+    color: #636363;
+}
+
+.img{
+    height: 50%;
+    margin: 30px;
+    transform: translateX(90px);
+}
+
+.credit-group{
+    margin: 30px;
+    margin-top: 0;
+}
+
+.credit-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #636363;
+    margin: 5px;
+}
+.credit-body{
+    font-size: 20px;
+    margin: 5px;
+}

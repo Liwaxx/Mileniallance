@@ -25,6 +25,7 @@
 	margin: 0;
 	font-family: 'Quicksand', sans-serif;
 	word-break: break-all;
+	text-decoration: none;
 }
 
 html {
@@ -69,12 +70,19 @@ body {
 	height: 180px;
 	background-image: linear-gradient( rgba(255, 0, 0, 0), #F5E17D);
 	bottom: 0;
+	z-index: 1;
 }
 
 .pages {
 	height: 100vh;
 	width: auto;
 	position: relative;
+}
+.short-pages {
+	height: 80vh;
+	width: auto;
+	position: relative;
+	overflow: hidden;
 }
 
 .textTitle3 {
@@ -260,7 +268,7 @@ body {
 	float: right;
 	padding: 10px;
 	margin: 20px 10px 0 10px;
-	font-size: 12px;
+	font-size: 15px;
 	color: #FFFFFF;
 	text-align: center;
 	font-weight: normal;
@@ -520,9 +528,44 @@ li a:hover:not(.aktif) {
 
 /* PAGE ROBOT */
 
+.gambar-robot{
+	height: 85vh;
+    transform: translate(50%, 15%);
+}
+.passion{
+	position: absolute;
+    bottom: 15%;
+    left: 45%;
+}
+.vector-robot{
+	top: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+}
+.vector-passion{
+    margin: auto;
+    width: 90%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+.text-passion{
+	position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 45px;
+	text-align: center;
+	color: #FFFFFF;
+}
 .card-robot {
 	width: 350px;
-	height: 400px;
+	height: 380px;
 	text-align: left;
 	z-index: 2;
 }
@@ -577,21 +620,53 @@ li a:hover:not(.aktif) {
 	font-weight: 700;
 }
 
-.groub .btn-pink {
+.group .btn-pink {
 	float: none;
 	left: 35%;
 	position: absolute;
 }
 
+.vector-catat{
+	position: absolute;
+    bottom: 0;
+}
+
+.gambar-kiri{
+	width: 400px;
+}
+
+.text-sukses{
+	position: absolute;
+	transform: translateX(-50%);
+    top: 35%;
+    left: 50%;
+}
+
+.text-sukses .judul {
+	color: #555555;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: left;
+	letter-spacing: 0.08em;
+}
 /* PAGES TIPS */
+.tips{
+	background: linear-gradient(180deg, #F4A58F 4.59%, #F5E17D 95.65%), #F4A58F;
+}
 
 .vectorLast {
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	width: 100%;
+	z-index: 1;
 }
-
+.gambar-last{
+	position: absolute;
+    bottom: 0;
+    height: 70%;
+    left: 5%;
+}
 .owl-tips {
 	position: absolute;
 	width: 650px;
