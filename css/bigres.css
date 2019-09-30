@@ -22,7 +22,7 @@
 		width: 20px;
 	}
 	.white-arrow {
-    padding: 25px 35px;
+    padding: 25px 38px;
     width: 45px;
 	}
 	.scroll {
@@ -92,6 +92,15 @@
 		height: 370px;
 	}
 	/* END OF PAGE 5 */
+
+	/* PAGE PASSION */
+	.vector-passion {
+		width: 70%;
+	}
+	.text-passion {
+		font-size: 40px;
+	}
+	/* END OF PAGE PASSION */
 	
 	/* PAGE 6 */
 	.container-box {
@@ -118,6 +127,18 @@
 		width: 100%;
 	}	
 	/* END OF PAGE 6 */
+
+	/* PAGE WINNER  */
+	.gambar-kiri {
+    width: 750px;
+	}
+	.text-sukses span {
+		font-size: 60px;
+	}
+	#subtitle {
+		font-size: 40px !important;
+	}
+	/* END OF PAGE WINNER */
 
 	/* PAGE 7 */
 	.item2 {

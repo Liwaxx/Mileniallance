@@ -9,7 +9,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-	background: #F5E17D;
+	background: #F5E17D;	
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -24,7 +24,8 @@
 	padding: 0;
 	margin: 0;
 	font-family: 'Quicksand', sans-serif;
-	word-break: break-all;
+	text-decoration: none;
+	word-break: keep-all;
 }
 
 html {
@@ -62,7 +63,7 @@ body {
 	width: 100%;
 	height: 180px;
 	background-image: linear-gradient( rgba(255, 0, 0, 0), white);
-	bottom: 0;
+	bottom: -1px;
 }
 
 .gradasi-kuning-atas {
@@ -79,12 +80,19 @@ body {
 	height: 180px;
 	background-image: linear-gradient( rgba(255, 0, 0, 0), #F5E17D);
 	bottom: 0;
+	z-index: 1;
 }
 
 .pages {
 	height: 100vh;
 	width: auto;
 	position: relative;
+}
+.short-pages {
+	height: 80vh;
+	width: auto;
+	position: relative;
+	overflow: hidden;
 }
 
 .textTitle3 {
@@ -270,7 +278,7 @@ body {
 	float: right;
 	padding: 10px;
 	margin: 20px 10px 0 10px;
-	font-size: 12px;
+	font-size: 15px;
 	color: #FFFFFF;
 	text-align: center;
 	font-weight: normal;
@@ -391,22 +399,13 @@ li a:hover:not(.aktif) {
 	width: auto;
 	z-index: -1;
 }
-
-.vector {
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
 /* END OF LANDING PAGE */
 
 /* PENGENALAN */
-
 .pengenalan {
 	position: relative;
 	overflow: hidden;
 }
-
 .background2 {
 	/* position: absolute;
 	bottom: 0; */
@@ -414,12 +413,10 @@ li a:hover:not(.aktif) {
 	height: 100vh;
 	width: 100%;
 }
-
 .pengenalan {
 	position: relative;
 	overflow: hidden;
 }
-
 .pengenalan-orang {
 	position: absolute;
 	bottom: 0;
@@ -458,7 +455,7 @@ li a:hover:not(.aktif) {
 
 .background3 {
 	position: absolute;
-	bottom: 0;
+	bottom: -1px;
 	z-index: 2;
 	max-height: 100vh;
 	width: 100%;
@@ -534,9 +531,44 @@ li a:hover:not(.aktif) {
 }
 
 /* PAGE ROBOT */
+
+.gambar-robot{
+	height: 85vh;
+    transform: translate(50%, 15%);
+}
+.passion{
+	position: absolute;
+    bottom: 15%;
+    left: 45%;
+}
+.vector-robot{
+	top: -1px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+}
+.vector-passion{
+    margin: auto;
+    width: 80%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+.text-passion{
+	position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+	font-size: 36px;
+	line-height: 45px;
+	text-align: center;
+	color: #FFFFFF;
+}
 .card-robot {
 	width: 350px;
-	height: 310px;
+	height: 380px;
 	text-align: left;
 	z-index: 2;
 }
@@ -557,11 +589,10 @@ li a:hover:not(.aktif) {
 	height: auto;
 	position: absolute;
 	top: 27%;
-	width: 580px;
-	left: calc(50% - 285px);
+	width: 640px;
+	left: calc(50% - 320px);
 	margin: 0 auto;
 }
-
 .container-box .box {
 	background-color: #FFFFFF;
 	width: 160px;
@@ -569,54 +600,83 @@ li a:hover:not(.aktif) {
 	margin: 10px 15px 20px 15px;
 	box-shadow: 1px 5px 13px 1px rgba(0, 0, 0, 0.1);
 	border-radius: 10px;
+	padding: 10px;
 	position: relative;
 	display: inline-block;
 }
-
-.box .photo {
-	background-color: #555555;
-	border-radius: 100%;
-	width: 80px;
-	height: 80px;
-	position: relative;
-	top: 5%;
-	margin-left: calc(50% - 40px);
+.photo, .photo1, .photo2, .photo3 {
+	width: 150px;
+	height: 150px;
+	margin-left: calc(50% - 85px);
+	margin-top: -6px;
+	position: absolute;
 }
-
+.box .photo2 {
+	margin-top: -15px !important;
+	width: 160px;
+	height: 160px;
+	margin-left: calc(50% - 90px);
+}
+.box .photo3 {
+	margin-top: -55px !important;
+	width: 250px;
+	height: 250px;
+	margin-left: calc(50% - 135px);
+}
 .box .text {
 	text-align: center;
 	color: #555555;
 	font-size: 15px;
 	font-weight: 700;
-	bottom: 25px;
-	position: absolute;
 	width: 100%;
+	margin-top: 130px;
 }
-
-.groub .btn-pink {
+.group .btn-pink {
 	float: none;
 	position: absolute;
-	margin: 0;
+	margin: 20px 0 0 calc(50% - 40px);
 	width: 80px;
-	margin-left: calc(50% - 40px);
 }
-
-/* PAGES TIPS */
-.orangpage7 {
-	height: 80vh;
+.vector-catat{
 	position: absolute;
 	bottom: 0;
-}
-.titlepage7 {
-	text-align: right;
 	width: 100%;
-	float: right;
+}
+.gambar-kiri{
+	width: 400px;
+}
+.text-sukses{
+	position: absolute;
+	transform: translateX(-50%);
+    top: 35%;
+    left: 50%;
+}
+.text-sukses span {
+	color: #555555;
+	font-size: 30px;
+	text-align: left;
+	letter-spacing: 0.08em;
+}
+.text-sukses img {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+/* PAGES TIPS */
+.tips{
+	background: linear-gradient(180deg, #F4A58F 4.59%, #F5E17D 95.65%), #F4A58F;
 }
 .vectorLast {
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	width: 100%;
+	z-index: 1;
+}
+.gambar-last{
+	position: absolute;
+    bottom: 0;
+    height: 70%;
+    left: 5%;
 }
 .owl-tips {
 	position: absolute;
@@ -706,14 +766,17 @@ li a:hover:not(.aktif) {
 	bottom: 0;
 }
 
-.medsos li {
-	color: #FFFFFF;
-	text-align: center;
-	background-color: #555555;
-	border-radius: 10px;
+.medsos img {
+	border-radius: 5px;
 	margin: 15px;
 	width: 40px;
 	height: 40px;
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+.medsos img:hover {
+	opacity: 1;
 }
 
 .copyright {

@@ -1,0 +1,133 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Quicksand', sans-serif;
+    word-break: break-all;
+    text-decoration: none;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	width: 100%;
+	margin: 0 auto;
+	margin: 0;
+	padding: 0;
+}
+
+/*SCROLLBAR*/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #F5E17D;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #F4A58F;
+}
+
+/*END OF SCROLLBAR*/
+.container-page{
+    height: 100vh;
+    position: relative;
+}
+.container-page-long{
+    height: 150vh;
+    position: relative;
+}
+.gradasi-putih {
+	position: absolute;
+	width: 100%;
+	height: 180px;
+	background-image: linear-gradient( rgba(255, 0, 0, 0), white);
+	bottom: 0;
+}
+
+.gambar-sukses{
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.text{
+    top: 50%;
+    position: absolute;
+    right: 10%;
+    text-align: right;
+    transform: translateY(-50%);
+}
+
+.text .judul{
+    font-weight: bold;
+    font-size: 35px;
+    color: #555555;
+    letter-spacing: 0.08em;
+}
+
+.tagline{
+    text-align: center;
+    font-size: 40px;
+    margin: 50px;
+    font-weight: bold;
+    color: #555555;
+}
+
+.video{
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.vector-bottom{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.orang-sukses{
+    width: 70%;
+    position: absolute;
+    bottom: 20%;
+    left: 70%;
+    transform: translateX(-70%);
+}
+
+.orang-sukses .box{
+    background-color: #FFFFFF;
+    width: 180px;
+    height: 200px;
+    margin-right: 120px;
+	box-shadow: 2px 5px 5px 2px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	position: relative;
+	display: inline-block;
+}
+
+.box .photo {
+	background-color: #555555;
+	border-radius: 100%;
+	width: 80px;
+	height: 80px;
+	position: relative;
+	top: 5%;
+	left: 30%;
+}
+
+.box .content {
+	text-align: center;
+	color: #555555;
+    font-size: 20px;
+    margin-top: 40px;
+	font-weight: 700;
+}
