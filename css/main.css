@@ -704,6 +704,9 @@ li a:hover:not(.aktif) {
 	box-shadow: 3px 10px 20px 1px rgba(0, 0, 0, 0.1);
 	border-radius: 20px;
 }
+.catat .textTitle2 {
+	width: 60%;
+}
 .foto-bulat {
 	float: left;
 	background-color: #555555;
