@@ -5,6 +5,10 @@
 	.owl-tips{
 		width: 620px;
 	}
+	.gambar-robot {
+    height: 70vh;
+    transform: translate(20%, 25%);
+}
 }
 
 @media (min-width: 901px) {
@@ -89,6 +93,7 @@
 	.text-sukses {
 		transform: translateX(-15%);
 	}
+	
 }
 @media (max-width: 768px) {
 	.content .article {
@@ -142,10 +147,6 @@
 	}
 	.slider .owl-item {
 		margin: 0 10px 0 10px !important;
-	}
-	.gambar-robot {
-		transform: translate(5%, 28%);
-		height: 75%;
 	}
 	.slider .owl-carousel .owl-stage-outer {
 		height: 440px !important;

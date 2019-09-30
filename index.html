@@ -9,11 +9,12 @@
 	<link rel="shortcut icon" href="resource/img/iconTitle.png">
 	<link rel="stylesheet" href="js/owlcarousel/dist/assets/owl.carousel.min.css" />
 	<link rel="stylesheet" href="js/owlcarousel/dist/assets/owl.theme.default.min.css" />
-	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet" />
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/smallres.css" />
 	<link rel="stylesheet" href="css/bigres.css" />
 	<link rel="stylesheet" href="css/bounce.css" />
+	<link rel="stylesheet" href="css/font.css" />
+
 </head>
 
 <body>
@@ -22,11 +23,15 @@
 		<div class="pages landing" id="landing">
 			<div class="navbar">
 				<ul>
-					<li class="aktif"><a class="aktif" href="#home">HOME</a></li>
-					<li><a href="#news">ROAD</a></li>
-					<li><a href="#contact">DEFIANCE</a></li>
-					<li><a href="#about">GALLERY</a></li>
-					<li><a href="#about">ABOUT US</a></li>
+					<li class="aktif"><a class="aktif" href="#landing">BERANDA</a></li>
+					<li><a href="#page2">KARAKTERISTIK</a></li>
+					<li><a href="#page3">REVOLUSI</a></li>
+					<li><a href="#page4">TANTANGAN</a></li>
+					<li><a href="#page5">ROBOT</a></li>
+					<li><a href="#page6">KEAHLIAN</a></li>
+					<li><a href="#page7">INDUSTRI</a></li>
+					<li><a href="#page8">SUKSES</a></li>
+					<li><a href="#page9">TIPS & TRICK</a></li>
 				</ul>
 			</div>
 			<nav role="navigation">
@@ -38,11 +43,15 @@
 					<span></span>
 
 					<ul id="menu">
-						<a href="#">HOME</a><span></span>
-						<a href="#">ROAD</a><span></span>
-						<a href="#">DEFIANCE</a><span></span>
-						<a href="#">GALLERY</a><span></span>
-						<a href="#">ABOUT US</a><span></span>
+						<a href="#landing">BERANDA</a><span></span>
+						<a href="#page2">KARAKTERISTIK</a><span></span>
+						<a href="#page3">REVOLUSI</a><span></span>
+						<a href="#page4">TANTANGAN</a><span></span>
+						<a href="#page5">ROBOT</a><span></span>
+						<a href="#page6">KEAHLIAN</a><span></span>
+						<a href="#page7">INDUSTRI</a><span></span>
+						<a href="#page8">SUKSES</a><span></span>
+						<a href="#page9">TIPS & TRICK</a><span></span>
 					</ul>
 				</div>
 			</nav>
@@ -92,7 +101,7 @@
 			<!-- END OF PAGE PENGENALAN -->
 
 			<!-- PAGE 3 -->
-			<div class="pages revolusi">
+			<div class="pages revolusi" id="page3">
 				<div class="text">
 					<p class="textTitle2">Siapkah Kamu?<br> Menuju Revolusi Industri <span class="textTitle3">4.0</span></p>
 				</div>
@@ -111,7 +120,7 @@
 			<!-- END OF PAGE 3 -->
 
 			<!-- PAGE 4 -->
-			<div class="pages slider">
+			<div class="pages slider" id="page4">
 				<div class="gradasi-kuning-atas"></div>
 				<img src="resource/svg/page4/background.svg" alt="" class="backgroundPage4">
 				<div class="gradasi-pink"></div>
@@ -294,7 +303,7 @@
 			<!-- END OF PAGE 4 -->
 
 			<!-- PAGE 5 -->
-			<div class="pages robot">
+			<div class="pages robot" id="page5">
 				<img src="resource/svg/page5/Group.png" alt="" class="gambar-robot" />
 				<img src="resource/svg/page5/Vector.svg" alt="" class="vector-robot" />
 				<div class="text">
@@ -315,7 +324,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="short-pages sp1">
+			<div class="short-pages sp1" id="page6">
 				<img src="resource/svg/page5/Group 5.svg" alt="" class="vector-passion">
 				<div class="text-passion">
 					Ketahui Bakat dan Passion <br> Mu Sekarang!
@@ -329,7 +338,7 @@
 			<!-- END OF PAGE 5 -->
 
 			<!-- PAGE 6 -->
-			<div class="pages catat">
+			<div class="pages catat" id="page7">
 				<div class="text">
 					<p class="textTitle2" style="top: 5%">
 						Catat! Industri-Industri yang Bakal Hitz saat Revolusi Industri
@@ -370,7 +379,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="short-pages sp2">
+			<div class="short-pages sp2" id="page8">
 				<img src="resource/svg/page6/Vector.svg" alt="" class="vector-catat" />
 				<img src="resource/img/page6/6.png" alt="" class="gambar-kiri" />
 				<div class="text-sukses">
@@ -387,11 +396,11 @@
 			<!-- END OF PAGE 6 -->
 
 			<!-- PAGE 7 -->
-			<div class="pages tips">
+			<div class="pages tips" id="page9">
 				<div class="text">
 					<p class="textTitle2" style=" top: 5%;">
 						<span class="textTitle3">Yuk..!! Persiapkan Diri </span><br>
-						Di era Revolusi Industri 4.0 <br> Mendatang
+						Di era Revolusi Industri 4.0 Mendatang
 					</p>
 				</div>
 				<div class="owl-carousel owl-theme owl-tips">
@@ -510,15 +519,17 @@
 	<div class="footer">
 		<div class="link-kiri">
 			<ul class="kiri">
-				<li>Home</li>
-				<li>Karakteristik</li>
-				<li>Revolusi Industri 4.0</li>
-				<li>Tantangan</li>
+				<a href="#landing"><li>Beranda</li></a>
+				<a href="#page2"><li>Karakteristik</li></a>
+				<a href="#page3"><li>Revolusi Industri 4.0</li></a>
+				<a href="#page4"><li>Tantangan</li></a>
+				<a href="#page5"><li>Robot</li></a>
 			</ul>
 			<ul class="kanan">
-				<li>Solusi</li>
-				<li>Pekerjaan</li>
-				<li>Tips & Trick</li>
+				<a href="#page6"><li>Keahlian</li></a>
+				<a href="#page7"><li>Industri</li></a>
+				<a href="#page8"><li>Sukses</li></a>
+				<a href="#page9"><li>Tips & Trick</li></a>
 			</ul>
 		</div>
 		<div class="link-kanan">
