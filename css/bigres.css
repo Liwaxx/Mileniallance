@@ -1,0 +1,198 @@
+@media (min-width: 1441px) {
+	.btn-scroll {
+		margin: 60px;
+		width: 120px;
+		height: 120px;
+		top: -220px;
+	}
+	/* PAGE 1 */
+	li a {
+    font-size: 30px;
+    width: 180px;
+    padding: 35px 30px;
+	}
+	.logoM {
+		width: 70px;
+    padding: 40px;
+	}
+	.textscroll {
+		font-size: 30px;
+	}
+	.imgscroll {
+		width: 20px;
+	}
+	.white-arrow {
+    padding: 25px 38px;
+    width: 45px;
+	}
+	.scroll {
+		padding: 50px;
+	}
+	/* END OF PAGE 1 */
+
+	/* PAGE 2 */
+	.textTitle3 {
+		font-size: 75px;
+	}
+	.textTitle, .textTitle2 {
+		font-size: 60px;
+		line-height: 90px;
+	}
+	.card {
+		width: 900px;
+		padding: 30px;
+	}
+	.card-header {
+		font-size: 40px;
+	}
+	.card-body {
+		font-size: 30px;
+		line-height: 50px;
+	}
+	.btn-pink {
+		width: 180px;
+		padding: 15px 40px;
+		font-size: 25px;
+	}
+	.content .btn-pink {
+		position: absolute;
+		bottom: 40px;
+		margin: 0 0 0 35px;
+	}
+	.textTitle2 span {
+		font-size: 50px !important;
+	}
+	/* END OF PAGE 2 */
+
+	/* PAGE 4 */
+	.item {
+		margin: -100px 0 0 0;
+	}
+	.item .card-tantangan {
+    width: 425px;
+    height: 610px;
+    border-radius: 25px;
+	}
+	.item .foto {
+    width: 320px;
+    height: 320px;
+    border-radius: 25px;
+    transform: translate(50px, 170px);
+	}
+	.content .header {
+    font-size: 35px;
+    padding-top: 240px;
+	}
+	.content .article {
+    font-size: 23px;
+    line-height: 35px;
+    padding: 50px 50px 0 50px;
+	}
+	.slider .owl-carousel .owl-stage-outer {
+		height: 900px !important;
+	}
+	.item .card-tantangan {
+		height: 620px !important;
+	}
+	.owl-tips {
+		width: 1200px !important;
+	}
+	/* END OF PAGE 4 */
+
+	/* PAGE 5 */
+	.card-robot {
+		height: 370px;
+	}
+	/* END OF PAGE 5 */
+
+	/* PAGE PASSION */
+	.vector-passion {
+		width: 70%;
+	}
+	.text-passion {
+		font-size: 40px;
+	}
+	/* END OF PAGE PASSION */
+	
+	/* PAGE 6 */
+	.container-box {
+    width: 1090px;
+    left: calc(50% - 545px);
+}
+	.container-box .box {
+    width: 280px;
+    height: 280px;
+    margin: 30px 30px 45px 30px;
+	}
+	.photo, .photo1, .photo2, .photo3 {
+		width: 230px;
+    height: 230px;
+    margin-left: calc(50% - 115px);
+	}
+	.box .photo2 {
+		width: 240px;
+		height: 240px;
+		margin-left: calc(50% - 120px);
+	}
+	.box .photo3 {
+		width: 350px;
+		height: 350px;
+		margin-left: calc(50% - 175px);
+	}
+	.box .text {
+    font-size: 30px;
+		position: absolute;
+		top: 200px;
+	}	
+	/* END OF PAGE 6 */
+
+	/* PAGE WINNER  */
+	.gambar-kiri {
+    width: 750px;
+	}
+	.text-sukses span {
+		font-size: 60px;
+	}
+	#subtitle {
+		font-size: 55px !important;
+	}
+	/* END OF PAGE WINNER */
+
+	/* PAGE 7 */
+	.item2 {
+		margin: 0 !important
+	}
+	.link-kiri {
+		height: 190px;
+	}
+	.link-kiri li, .copyright {
+    font-size: 25px;
+    line-height: 42px;
+	}
+	.copyright {
+		border-top: 2px solid #F5E17D;
+	}
+	.footer {
+		height: 270px;
+	}
+	.card-tips {
+		width: 850px;
+		height: 400px;
+	}
+	.owl-tips {
+		width: 900px;
+	}
+	.card-tips .content {
+		font-size: 30px;
+	}
+	.foto-bulat {
+		transform: translate(25%, calc(50%));
+		width: 200px;
+		height: 200px;
+	}
+	.medsos img {
+		width: 50px;
+		height: 50px;
+	}
+	
+}

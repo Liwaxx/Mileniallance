@@ -1,0 +1,444 @@
+@media (max-width: 1024px) {
+	.catat .textTitle2 {
+		width: 90%;
+	}
+	.owl-tips{
+		width: 620px;
+	}
+}
+
+@media (min-width: 901px) {
+	nav {
+		display: none;
+	}
+}
+
+@media (max-width: 900px) {
+	/* PAGE 1 */
+	.background {
+		height: 80vh;
+		bottom: 0;
+		top: 100;
+	}
+	.logoM {
+		width: 29px;
+	}
+	.navbar {
+		display: none;
+	}
+	.titleImg {
+		position: absolute;
+		bottom: 0;
+		left: 48%;
+		transform: translateX(-50%);
+		height: auto;
+		width: 90%;
+		z-index: -1;
+	}
+	.imgscroll {
+		margin-bottom: -5px;
+		width: 9px;
+	}
+	.textscroll {
+		font-size: 15px;
+	}
+	/* END OF PAGE 1 */
+	/* PAGE 2 */
+	.textTitle, .textTitle2 {
+		font-size: 25px;
+		line-height: 45px;
+		top: 8%;
+	}
+	.sp1 {
+    height: 70vh;
+	}
+	.text-passion {
+		font-size: 25px;
+	}
+	.textTitle3 {
+		font-size: 32px;
+	}
+	.card-header {
+		font-size: 20px;
+	}
+	.card-body {
+		font-size: 13px;
+	}
+	.btn-pink {
+		width: 85px;
+		margin: 10px 10px 0 0;
+		font-size: 10px;
+	}
+	.card {
+		width: 350px;
+		bottom: 16%;
+	}
+	/* END OF PAGE 2 */
+	/* PAGE 3 */
+	.backgroundPage4 {
+		height: 100%;
+	}
+	/* END OF PAGE 3 */
+}
+
+@media (min-width: 769px) {
+	.card-robot {
+		width: 350px;
+    height: 330px;
+	}
+	.text-sukses {
+		transform: translateX(-15%);
+	}
+}
+@media (max-width: 768px) {
+	.content .article {
+		font-size: 13px;
+	}
+	.content .header {
+		font-size: 20px;
+	}
+	.tips .owl-carousel {
+		width: 420px;
+	}
+	.card-tips{
+		width: 400px;
+		height: 250px;
+	}
+	.foto-bulat{
+		width: 100px;
+    	height: 100px;
+    	transform: translate(25%, 70%);
+	}
+	.card-tips .content{
+		font-size: 20px;
+	}
+	.gambar-kiri {
+		width: 310px;
+		margin-top: 30px;	
+	}
+	.text-sukses span, #subtitle {
+		font-size: 25px;
+	}
+	.text-sukses {
+    transform: translateX(0%);
+    top: 29%;
+    left: 50%;
+}
+.card-robot {
+	width: 290px;
+	height: 300px;
+}
+}
+
+@media (min-width: 731px) {
+	.judul {
+		display: none;
+	}
+	.titleImg2 {
+		display: none;
+	}
+	.item .card-tantangan {
+		height: 300px;
+	}
+	.slider .owl-item {
+		margin: 0 10px 0 10px !important;
+	}
+	.gambar-robot {
+		transform: translate(5%, 28%);
+		height: 75%;
+	}
+	.slider .owl-carousel .owl-stage-outer {
+		height: 440px !important;
+	}
+}
+
+@media (max-width: 730px) {
+	.titleImg {
+		display: none;
+	}
+	.titleImg2 {
+    left: 0;
+    transform: translateX(0);
+    height: 70%;
+	}
+	.judul {
+		color: #636363 !important;
+		letter-spacing: 0.3em;
+		line-height: 25px;
+		position: absolute;
+		float: right;
+		text-align: right;
+	}
+	.utama {
+		font-size: 60px;
+		text-align: right;
+		width: 100%;
+		top: 15%;
+		right: 30px;
+	}
+	.background {
+    height: 70vh;
+		left: 0;
+	}
+	.subtitle1 {
+		bottom: 40%;
+		right: 40px;
+		font-size: 25px;
+		line-height: 35px;
+	}
+	.subtitle2 {
+		bottom: 25%;
+		width: 100%;
+		right: 40px;
+	}
+
+}
+
+@media (max-width: 580px) {
+	.background {
+    height: 60vh;
+	}
+	.utama {
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    right: 0;
+	}
+	.titleImg2 {
+    height: 65%;
+	}
+}
+
+@media (max-width: 530px) {
+	.background {
+		height: 40vh;
+	}
+	.utama {
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    right: 0;
+	}
+	.subtitle1, .subtitle2 {
+		font-size: 16px;
+		line-height: 26px;
+		bottom: 0%;
+	}
+	.subtitle1 {
+		top: 25%;
+	}
+	.subtitle2 {
+		top: 35%;
+	}
+	.textscroll {
+    font-size: 12px;
+	}
+}
+ 
+@media (max-width: 425px) {
+	.card-tips .content {
+		font-size: 15px;
+		line-height: 25px;
+	}
+		.gambar-robot {
+    height: auto;
+		width: 100%;
+		transform: translate(0,0);
+}
+.textTitle, .textTitle2 {
+	font-size: 18px;
+	line-height: 30px;
+}
+.textTitle2 span {
+	font-size: 24px !important;
+}
+.gambar-last {
+	left: -25%;
+}
+.container-box {
+	left: 0;
+	width: 100%;
+	top: 10%;
+}
+.catat {
+	height: 240vh;
+}
+.container-box .box {
+	display: block;
+	margin: 10px 0 20px calc(50% - 90px);
+}
+.footer {
+	height: 410px;
+}
+.link-kanan {
+	height: 300px;
+}
+.copyright .text {
+	margin: 0 0 10px 0;
+	float: right;
+	font-size: 12px;
+}
+.btn-scroll {
+	width: 45px;
+	height: 45px;
+}
+.white-arrow {
+	padding: 12px 15px;
+	width: 15px;
+}
+.copyright .button {
+	font-size: 12px;
+}
+.copyright {
+	height: 70px;
+}
+.medsos img {
+	margin-right: 0;
+	width: 30px;
+	height: 30px;
+}
+.card {
+	width: 200px;
+	bottom: 21%;
+}
+.card-header {
+	font-size: 16px;
+}
+.card-body {
+	font-size: 12px;
+	line-height: 22px;
+}
+.garis img {
+	width: 120px;
+}
+.background2 {
+	height: auto;
+}
+.pengenalan-orang {
+	height: 70vh;
+}
+.textTitle3 {
+	font-size: 25px;
+}
+.gambar-robot {
+	width: 55%;
+	transform: translate(35%,20%);
+}
+.card-robot {
+    width: 320px;
+    height: 227px;
+    bottom: 0%;
+}
+.sp2 {
+	height: 90vh;
+}
+.text-passion {
+	font-size: 16px;
+	line-height: 22px;
+	width: 400px;
+	margin-top: 20px;
+}
+.text-sukses {
+	transform: translateX(-60%);
+	text-align: right;
+	font-size: 18px;
+	width: 100%;
+	margin-top: 130px;
+}
+.gambar-kiri {
+	width: 270px;
+	margin-top: 0;
+}
+.sp2 .btn-pink {
+	position: absolute;
+	right: 0;
+	margin: 60px 0 0 0;
+}
+.text-sukses img {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	float: right;
+}
+.item .card-tantangan {
+	height: 305px;
+}
+.slider .owl-carousel .owl-stage-outer {
+	height: 415px !important;
+}
+.text-sukses span, #subtitle {
+	font-size: 18px;
+}
+.tips .owl-tips{
+	width: 400px;
+}
+.card-tips{
+	width: 380px;
+}
+}
+
+@media (max-width: 424px) {
+	.utama {
+    font-size: 30px;
+	}
+	.subtitle1, .subtitle2 {
+		font-size: 14px;
+		line-height: 23px;
+		right: 25px;
+	}
+	.titleImg2 {
+		height: 60%;
+	}
+	.card {
+		width: 265px;
+	}
+	.card-robot {
+    height: 235px;
+    bottom: 0;
+    left: calc(50% - 155px);
+	}
+	.vector-passion {
+    width: 90%;
+}
+.sp1 {
+	height: 60vh;
+}
+.text-passion {
+	margin-top: 15px;
+}
+.text-sukses {
+	transform: translateX(-50%);
+	width: 80%;
+}
+}
+
+@media (max-width:375px) and (min-width:320px){
+	.tips .owl-tips {
+		width: 310px;
+	}
+	.card-tips{
+		width: 280px;
+		height: 280px;
+	}
+	.card-tips .content{
+		padding: 15px;
+		line-height: 25px;
+		font-size: 15px;
+		float: none;
+		float: none;
+		margin: auto;
+		margin-top: 20px;
+	}
+	.foto-bulat{
+		float: none;
+		transform: translate(90%, 25%);
+	}
+	.pengenalan .card {
+		bottom: 10%;
+	}
+}
+
+@media (max-width: 320px) {
+.gambar-robot {
+    transform: translate(35%,50%);
+}
+}

@@ -24,7 +24,7 @@
 	padding: 0;
 	margin: 0;
 	font-family: 'Quicksand', sans-serif;
-	word-break: break-all;
+	word-break: keep-all;
 }
 
 html {
@@ -53,7 +53,7 @@ body {
 }
 
 .long-pages {
-	height: 210vh;
+	height: 200vh;
 	width: auto;
 	position: relative;
 	overflow: hidden;
@@ -87,6 +87,7 @@ body {
     overflow: hidden;
     margin-top: 15%;
 }
+
 .gradasi-oren-atas {
 	position: absolute;
 	width: 100%;
@@ -103,28 +104,32 @@ body {
 	right: 0;
 	max-height: 100vh;
 	width: 100%;
-    object-fit: cover;
-    overflow: hidden;
-    z-index: 0;
+	object-fit: cover;
+	overflow: hidden;
+	z-index: 0;
 }
-.breadcrumb{
-    position: absolute;
-    top : 0;
-    left: 0;
-    margin: 15px;
+
+.breadcrumb {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 15px;
 }
-.breadcrumb-text{
-    float: right;
-    padding: 15px;
-    padding-left: 20px;
-    font-weight: bold; 
+
+.breadcrumb-text {
+	float: right;
+	padding: 15px;
+	padding-left: 20px;
+	font-weight: bold;
 }
-.content{
-    font-size: 48px;
-    line-height: 60px;
-    letter-spacing: 0.1em;
-    color: #555555;
+
+.content {
+	font-size: 48px;
+	line-height: 60px;
+	letter-spacing: 0.1em;
+	color: #555555;
 }
+
 .content .title{
     position: absolute;
     width: 472px;
@@ -158,28 +163,8 @@ body {
 	z-index: 0;
 }
 
-.breadcrumb {
-	position: absolute;
-	top: 0;
-	left: 0;
-	margin: 15px;
-}
-
-.breadcrumb-text {
-	float: right;
-	padding: 15px;
-	padding-left: 20px;
-	font-weight: bold;
-}
-
-.content {
-	font-size: 48px;
-	line-height: 60px;
-	letter-spacing: 0.1em;
-	color: #555555;
-}
-
-.content .title {
+.title {
+	word-break: keep-all;
 	position: absolute;
 	width: 550px;
 	height: 100px;
@@ -187,7 +172,8 @@ body {
 	transform: translate(50px, 20vh);
 }
 
-.content .foto-kotak {
+.foto-kotak {
+	border-radius: 10px;
 	position: absolute;
 	margin: 20px;
 	transform: translate(50px, 45vh);
@@ -196,47 +182,55 @@ body {
 	background-color: #555555;
 }
 
-
 /* END OF LANDING PAGE */
 
 /* PAGE CONTENT */
-.svg-kanan{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    height: 100%;
-    z-index: -1;
+
+.svg-kanan {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	z-index: -1;
 }
-.svg-kiri{
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 100%;
-    z-index: -1;
+
+.svg-kiri {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 100%;
+	z-index: -1;
 }
-.littleR{
-    transform: translate(130px, 80px);
+
+.littleR {
+	transform: translate(130px, 80px);
 }
-.littleC{
-    position: absolute;
-    left: 0;
+
+.littleC {
+	position: absolute;
+	left: 0;
 }
-.bigC{
-    transform: translateY(40px);
+
+.bigC {
+	transform: translateY(40px);
 }
-.circle{
-    position: absolute;
-    bottom: 5%;
+
+.circle {
+	position: absolute;
+	bottom: 5%;
 }
-.svgW{
-    position: absolute;
-    right: 0;
-    bottom: 5%;
+
+.svgW {
+	position: absolute;
+	right: 0;
+	bottom: 5%;
 }
-.vector{
-    position: absolute;
-    bottom: -24%;
-    z-index: 0;
+
+.vector {
+	width: 100%;
+	position: absolute;
+	bottom: -20%;
+	z-index: -2;
 }
 .vector-robot{
     position: absolute;
@@ -248,17 +242,19 @@ body {
     bottom: -7%;
     z-index: 0;
 }
-.artikel{
-    z-index: 2;
-    width: 50%;
-    height: auto;
-    margin: auto;
+.artikel {
+	z-index: 2;
+	width: 50%;
+	height: auto;
+	margin: auto;
 }
-.artikel .text{
-    font-size: 23px;
-    line-height: 45px;
-    letter-spacing: 0.08em;
+
+.artikel .text {
+	font-size: 35px;
+	line-height: 45px;
+	letter-spacing: 0.08em;
 }
+
 .artikel .text-tantangan{
 	font-size: 28px;
     line-height: 45px;
@@ -269,6 +265,7 @@ body {
     line-height: 45px;
     letter-spacing: 0.07em;
 }
+
 /* END OF PAGE CONTENT */
 
 /*  ARTIKEL LAINNYA */
@@ -332,10 +329,10 @@ body {
 
 .card-body {
 	max-width: -webkit-fill-available;
-	font-size: 13px;
+	font-size: 15px;
 	line-height: 25px;
 	padding: 10px;
-	float: left;
+	float: right;
 	font-weight: normal;
 	margin: 10px 0;
 }
@@ -434,9 +431,95 @@ body {
 }
 
 /* END BOUNCING ANIMATION */
-@media (min-width: 376px){
 
+@media (max-width:425px) {
+	.short-pages{
+		height: 120vh;
+	}
+	.breadcrumb {
+		margin: 10px;
+	}
+	.breadcrumb-text {
+		padding: 5px;
+		padding-left: 10px;
+		font-size: 12px;
+	}
+	.logoM {
+		width: 25px;
+	}
+	.content{
+		line-height: 30px;
+	}
+	.title{
+
+		height: auto;
+		transform: translate(30px, 30vh);
+		letter-spacing: 0;
+		font-size: 30px;
+		width: 220px;
+	}
+	.foto-kotak{
+		width: 225px;
+		height: 150px;
+		transform: translate(30px, 55vh);
+	}
+	.artikel{
+		width: 80%;
+	}
+	.artikel .text {
+		font-size: 20px;
+		line-height: 25px;
+		letter-spacing: 0;
+	}
+	.svgY{
+		height: 130px;
+	}
+	.svgW{
+		height: 130px;
+	}
+	.bigR{
+		height: 135px;
+	}
+	.littleR{
+		height: 65px;
+	}
+	.bigC{
+		height: 135px;
+	}	
+	.littleC{
+		height: 55px;
+	}
+	.vector{
+		bottom: -50px;
+	}
+	.titleText{
+		font-size: 25px;
+		line-height: 35px;
+	}
+	.card-artikelLain{
+		width: auto;
+		height: 240px;
+		margin-top: 40px;
+	}
+	.card-header{
+		font-size: 15px;
+	}
+	.card-body{
+		font-size: 12px;
+		line-height: 1;
+		padding: 10px;
+	}
+	.garis{
+		width: 100px;
+	}
+	.btn-pink{
+		width: 90px;
+		padding: 10px;
+		margin: 20px 5px 0 5px;
+	}
 }
+
+@media (min-width: 376px) {}
 
 @media (max-width:1024px) and (min-width: 426px) {
 	.artikel .text {
@@ -444,19 +527,19 @@ body {
 		line-height: 35px;
 		letter-spacing: 0.08em;
 	}
-	.card-artikelLain{
+	.card-artikelLain {
 		width: 400px;
-    height: 150px;
-	padding: 15px;
-	margin-top: 40px;
+		height: 150px;
+		padding: 15px;
+		margin-top: 40px;
 	}
-	.card-header{
+	.card-header {
 		font-size: 20px;
 	}
-	.card-body{
+	.card-body {
 		margin: 0;
 	}
-	.btn-pink{
+	.btn-pink {
 		margin: 0px 0px 0 10px;
 	}
 }
@@ -465,11 +548,25 @@ body {
 	.vector {
 		bottom: -135px;
 	}
+	.content {
+		font-size: 40px;
+	}
+	.foto-kotak {
+		width: 480px;
+		height: 280px;
+	}
 }
 
 @media (min-width: 769px) {
 	.vector {
 		bottom: -195px;
+	}
+	.content {
+		font-size: 40px;
+	}
+	.foto-kotak {
+		width: 650px;
+		height: 300px;
 	}
 }
 
@@ -484,6 +581,6 @@ body {
 		width: 50%;
 	}
 	.vector {
-		bottom: -35%;
+		bottom: -20%;
 	}
 }
