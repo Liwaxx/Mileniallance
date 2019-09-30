@@ -1,0 +1,188 @@
+@media (min-width: 901px) {
+	nav {
+		display: none;
+	}
+}
+
+@media (max-width: 900px) {
+	/* PAGE 1 */
+	.background {
+		height: 80vh;
+		bottom: 0;
+		top: 100;
+	}
+	.logoM {
+		width: 29px;
+	}
+	.navbar {
+		display: none;
+	}
+	.titleImg {
+		position: absolute;
+		bottom: 0;
+		left: 48%;
+		transform: translateX(-50%);
+		height: auto;
+		width: 90%;
+		z-index: -1;
+	}
+	.imgscroll {
+		margin-bottom: -5px;
+		width: 9px;
+	}
+	.textscroll {
+		font-size: 15px;
+	}
+	/* END OF PAGE 1 */
+	/* PAGE 2 */
+	.textTitle, .textTitle2 {
+		font-size: 25px;
+		line-height: 45px;
+		top: 8%;
+	}
+	.textTitle3 {
+		font-size: 32px;
+	}
+	.card-header {
+		font-size: 20px;
+	}
+	.card-body {
+		font-size: 13px;
+	}
+	.btn-pink {
+		width: 85px;
+		margin: 10px 10px 0 0;
+		font-size: 10px;
+	}
+	.card {
+		width: 350px;
+		bottom: 16%;
+	}
+	/* END OF PAGE 2 */
+	/* PAGE 3 */
+	.backgroundPage4 {
+		height: 100%;
+	}
+	/* END OF PAGE 3 */
+}
+
+@media (min-width: 731px) {
+	.judul {
+		display: none;
+	}
+	.titleImg2 {
+		display: none;
+	}
+	.item .card-tantangan {
+		height: 300px;
+	}
+	.slider .owl-item {
+		margin: 0 10px 0 10px !important;
+	}
+	.gambar-robot {
+		transform: translate(5%, 28%);
+		height: 75%;
+	}
+	.slider .owl-carousel .owl-stage-outer {
+		height: 440px !important;
+	}
+}
+
+@media (max-width: 730px) {
+	.titleImg {
+		display: none;
+	}
+	.titleImg2 {
+    left: 0;
+    transform: translateX(0);
+    height: 70%;
+	}
+	.judul {
+		color: #636363 !important;
+		letter-spacing: 0.3em;
+		line-height: 25px;
+		position: absolute;
+		float: right;
+		text-align: right;
+	}
+	.utama {
+		font-size: 60px;
+		text-align: right;
+		width: 100%;
+		top: 15%;
+		right: 30px;
+	}
+	.background {
+    height: 70vh;
+		left: 0;
+	}
+	.subtitle1 {
+		bottom: 40%;
+		right: 40px;
+		font-size: 25px;
+		line-height: 35px;
+	}
+	.subtitle2 {
+		bottom: 25%;
+		width: 100%;
+		right: 40px;
+	}
+}
+
+@media (max-width: 580px) {
+	.background {
+    height: 60vh;
+	}
+	.utama {
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    right: 0;
+	}
+	.titleImg2 {
+    height: 65%;
+	}
+}
+
+@media (max-width: 530px) {
+	.background {
+		height: 40vh;
+	}
+	.utama {
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    right: 0;
+	}
+	.subtitle1, .subtitle2 {
+		font-size: 16px;
+		line-height: 26px;
+		bottom: 0%;
+	}
+	.subtitle1 {
+		top: 25%;
+	}
+	.subtitle2 {
+		top: 35%;
+	}
+	.textscroll {
+    font-size: 12px;
+	}
+}
+
+@media (max-width: 424px) {
+	.utama {
+    font-size: 30px;
+	}
+	.subtitle1, .subtitle2 {
+		font-size: 14px;
+		line-height: 23px;
+		right: 25px;
+	}
+	.titleImg2 {
+		height: 60%;
+	}
+	.card {
+		width: 265px;
+	}
+}
