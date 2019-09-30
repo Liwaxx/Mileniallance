@@ -23,7 +23,7 @@
 * {
 	padding: 0;
 	margin: 0;
-	font-family: 'Quicksand', sans-serif;
+	font-family: quicksand;
 	text-decoration: none;
 	word-break: keep-all;
 }
@@ -172,7 +172,7 @@ body {
 
 #menu {
 	position: absolute;
-	line-height: 25px;
+	line-height: 15px;
 	width: 250px;
 	margin: -110px 0 0 -285px;
 	text-align: right;
@@ -310,10 +310,10 @@ li a {
 	display: block;
 	color: #F2D95C;
 	text-align: center;
-	padding: 10px 5px;
+	padding: 10px 20px;
 	font-size: 15px;
 	line-height: 26px;
-	width: 100px;
+	width: auto;
 	text-decoration: none;
 }
 
@@ -777,7 +777,7 @@ li a:hover:not(.aktif) {
 
 .link-kiri li {
 	font-size: 15px;
-	line-height: 35px;
+	line-height: 28px;
 	letter-spacing: 0.08em;
 	list-style: none;
 }
